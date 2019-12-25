@@ -1,0 +1,24 @@
+#originarea {
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+#stablebox {
+    width: 80px;
+    height: 80px;
+    background-color:yellow;
+    position: absolute;
+    top: 300px;
+    right: 400px;
+}
+
+#activebox {
+    width: 80px;
+    height: 80px;
+    background-color:green;
+    position: absolute;
+    z-index: 1;
+}
